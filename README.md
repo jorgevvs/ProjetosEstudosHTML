@@ -1,2 +1,2 @@
 # ProjetosEstudosHTML
-Repositório para guardar meus projetos de estudo em HTML, CSS e Javascript
+Repository to my archives from my classes of HTML, CSS and Javascript
