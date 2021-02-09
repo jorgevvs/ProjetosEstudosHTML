@@ -116,6 +116,10 @@ li a{
 }
 .section5{
     text-align: center;
+    margin: 0px 10%;
+}
+.section5 iframe{
+    width: 100%;
 }
 footer{
     text-align: center;
