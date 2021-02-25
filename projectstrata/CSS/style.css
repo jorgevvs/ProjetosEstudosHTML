@@ -1,0 +1,180 @@
+body{
+    background-image:url(../Images/bg.jpg);
+    background-attachment: fixed;
+    background-size:cover ;
+    background-position: bottom;
+    background-position-y: -1px;
+    background-repeat: no-repeat;
+    
+    display: inline-block;
+    margin: 0;
+}
+a{
+    color: rgba(0,0,0,0.4);
+}
+
+header{
+    float: left;
+    width: 39%;
+    position: fixed;
+    text-align: right;}
+
+header img{
+    border-radius: 50%;
+    margin-top: 15%;
+    margin-right: 7%;
+}
+.textohd{
+    margin-right: 13%;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.textohd h3{
+    margin-right: -3%;
+    color: rgba(255,255,255,0.8);
+}
+.textohd h2{
+    color: rgba(0,0,0);
+    margin-top: -20px;
+}
+#ze{
+    margin-top: -20px;
+}
+.textohd h4{
+    color: rgba(0,0,0,0.4);
+}
+
+main{
+    float: right;
+    width: 54%;
+    background-color: white;
+    padding: 5% 3%;
+}
+
+.cabecalho{
+    width: 100%;
+    text-align: center;
+    color: grey;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.cabecalho p{
+    text-align: left;
+}
+.cabecalho h1{
+    text-align: left;
+    
+}
+.cabecalho a{
+    padding: 10px 20px;
+    border: 2px solid rgba(128, 128, 128, 0.212);
+    border-radius: 3px;
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+    transition-property: all;
+    transition-duration: .5s;
+}
+.cabecalho a:hover{
+    color: white;
+    background-color: rgb(73, 73, 73);
+    padding: 10px 50px;
+}
+.himgs{
+    color: grey;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#texttop{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: grey;
+    font-size: 25px;
+}
+.himgs img{
+    border-radius: 10px;
+    width: 100%;
+}
+.himgs div{
+    display: inline-block;
+    width: 35%;
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    position: relative;
+    left: -30px;
+}
+.himgs a{
+    padding: 10px 20px;
+    border: 2px solid rgba(128, 128, 128, 0.212);
+    border-radius: 3px;
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+    transition-property: all;
+    transition-duration: .5s;;
+}
+.himgs a:hover{
+    color: white;
+    background-color: rgb(73, 73, 73);
+    padding: 10px 50px;
+}
+.texto{
+    width: 28%;
+    float: right;
+    
+}
+form{
+    float: left;
+    margin-right: 15px;
+    width: 69%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.vapo{
+    width: 100%;
+    box-sizing: border-box;
+    height: 100px;
+    float: left;
+}
+.nome{
+    float: left;
+    width: 50%;;
+    
+}
+form input{
+    background-color: rgb(172, 172, 172);
+    border: none;
+    width: 97%;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 50px;
+    font-size: 20px;
+
+}
+.email{
+    float: right;
+    width: 50%; 
+}
+.msg{
+    margin-top: 30px;
+}
+
+footer{
+    float: left;
+    position: fixed;
+    width: 40%;
+    left:0;
+    bottom: 40px;
+    text-align: right;
+    color: rgb(160, 160, 160);
+    font-family:fantasy;
+    
+}
+footer a{
+    color: rgb(199, 199, 199);
+}
+footer p{
+    margin-right: 10%;
+}
+footer img{
+    padding-left: 10px;
+}
+.footimg{
+    margin-right: 10%;
+    
+}
