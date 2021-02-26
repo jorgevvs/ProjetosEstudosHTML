@@ -80,8 +80,10 @@ main{
 }
 .himgs{
     color: grey;
+    border: red 3px solid;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+
 #texttop{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: grey;
@@ -90,7 +92,14 @@ main{
 .himgs img{
     border-radius: 10px;
     width: 100%;
+    border: red 3px solid;
 }
+.himgs img:hover{
+    
+}
+
+
+
 .himgs div{
     display: inline-block;
     width: 35%;
@@ -100,7 +109,8 @@ main{
     position: relative;
     left: -30px;
 }
-.himgs a{
+
+.link{
     padding: 10px 20px;
     border: 2px solid rgba(128, 128, 128, 0.212);
     border-radius: 3px;
@@ -109,7 +119,7 @@ main{
     transition-property: all;
     transition-duration: .5s;;
 }
-.himgs a:hover{
+.link:hover{
     color: white;
     background-color: rgb(73, 73, 73);
     padding: 10px 50px;
@@ -148,7 +158,7 @@ form{
     
 }
 form input{
-    background-color: rgb(172, 172, 172);
+    background-color: rgb(211, 209, 209);
     border: none;
     width: 97%;
     border-radius: 5px;
@@ -187,6 +197,9 @@ form input{
 .table tbody th{
     padding: 20px;
     border: .5px rgb(201, 200, 200) solid;
+}
+.table tbody tr:nth-child(even){
+    background-color: rgb(233, 231, 231);
 }
 .submite{
     width: 100%;
