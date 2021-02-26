@@ -80,7 +80,6 @@ main{
 }
 .himgs{
     color: grey;
-    border: red 3px solid;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
@@ -92,7 +91,6 @@ main{
 .himgs img{
     border-radius: 10px;
     width: 100%;
-    border: red 3px solid;
 }
 .himgs img:hover{
     
