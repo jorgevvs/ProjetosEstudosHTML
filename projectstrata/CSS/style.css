@@ -5,7 +5,7 @@ body{
     background-position: bottom;
     background-position-y: -1px;
     background-repeat: no-repeat;
-    
+    color: grey;
     display: inline-block;
     margin: 0;
 }
@@ -120,6 +120,10 @@ main{
     height: 200px;
     
 }
+.touch{
+   padding-top: 40px;
+   padding-bottom: 40px;
+}
 .touch h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: grey;
@@ -160,6 +164,97 @@ form input{
 .msg{
     margin-top: 30px;
 }
+.elements{
+    color: grey;
+    float: left;
+    width: 100%;
+}
+.lists{
+    padding-top: 20px;
+    color: grey;
+    font-size: 20px;
+}
+.table{
+    margin: 0;
+    width: 100%;
+    text-align: left;
+}
+.table thead th{
+    background-color: rgb(204, 202, 202);
+    padding: 15px 20px;
+    border-bottom: solid grey 2px;
+}
+.table tbody th{
+    padding: 20px;
+    border: .5px rgb(201, 200, 200) solid;
+}
+.submite{
+    width: 100%;
+    padding-bottom: 10px;
+}
+.submit{
+    padding: 20px 40px;
+    color: grey;
+    border-radius: 10px;
+    background-color: white;
+    transition: all;
+    transition-duration: .5s;
+    border: .5px grey solid;
+    text-align: center;
+    margin-right: 10px;
+}
+.submit:hover{
+    background-color: black;
+    color: white;
+    padding: 20px 60px;
+    
+}
+.submit2{
+    color: grey;
+    border-radius: 10px;
+    background-color: white;
+    transition: all;
+    transition-duration: .5s;
+    border: .5px grey solid;
+    text-align: center;
+    margin-right: 10px;
+    width: 100px;
+    padding: 10px 15px;
+}
+.submit2:hover{
+    background-color: black;
+    color: white;
+    
+}
+.imagess{
+    width: 100%;;
+}
+.imagess img{
+    width: 100%;
+}
+.images img{
+    width: 32.1%;
+    border-radius: 10px;
+    padding: 5px;
+}
+.leftright{
+    font-size: 25px;
+}
+.right{
+    float: right;
+    padding: 5px 20px;
+}
+.left{
+    float: left;
+    padding: 5px 20px;
+}
+
+
+
+
+
+
+
 
 footer{
     float: left;
