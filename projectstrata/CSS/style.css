@@ -88,12 +88,32 @@ main{
     color: grey;
     font-size: 25px;
 }
+.himgs a{
+    position: relative;
+    display: block;
+}
 .himgs img{
     border-radius: 10px;
     width: 100%;
+    height: 100%;
 }
-.himgs img:hover{
-    
+.himgs a:hover:before{
+    position: absolute;
+    content: '';
+    background-color: rgba(0,0,0,.5);
+    width: 100%;
+    height: 99%;
+    border-radius: 10px;
+}
+.himgs a:hover:after{
+    content:"Veja +";
+    position: absolute;
+    top: 42%;
+    right: 38%;
+    color: white;
+    background-color: rgba(128, 128, 128,.5);
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 
