@@ -1,0 +1,242 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: rgb(119, 8, 119) ;
+    background-color: #f7f7f9;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    text-align: center;;
+}
+header img{
+    padding: 10px 0px;
+    width: 40%;
+}
+nav{
+    background-color: rgb(119, 8, 119);
+    margin: 0;
+    padding: 0;
+    position: relative;
+    padding: 15px 0px;
+}
+nav a{
+    display: block;
+    padding: 10px;
+    color: white;
+}
+.texto{
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 15px;
+}
+.texto h1{
+    font-size: 20px;
+}
+.texto img{
+    display: none;
+}
+.texto a{
+    background-color:rgb(119, 8, 119);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+.texto p{
+    padding-bottom: 10px;
+}
+
+
+.texts{
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 15px;
+    
+
+}
+.texts h2{
+    font-size: 20px;
+    padding-top: 10px;
+    
+}
+.texts p{
+    padding-bottom: 10px;
+}
+.texts a{
+    background-color:rgb(119, 8, 119);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+
+.contents{
+    text-align: center;
+}
+.contents h2{
+    text-transform:uppercase;
+    letter-spacing: 3px;
+}
+.contents img{
+    padding-top: 30px;
+    width: 70px;
+}
+footer{
+    border: black 1px solid;
+    color: rgba(255, 255, 255, 0.438);
+    background-color: rgb(29, 37, 46);
+    text-align: center;
+}
+.footlink{
+    background-color: rgb(48, 61, 76);
+}
+.footlink a{
+    position: relative;
+    top: 3px;
+}
+
+
+@media screen and (min-width:600px){
+    header{
+        height: 120px;
+        text-align: right;
+
+    }
+    header img{
+        float: left;
+        position: relative;
+        top: 25px;
+        width: 35%;
+    }
+    nav{
+        display:inline-block;
+        background-color: #f7f7f9;
+        position: relative;
+        font-size: 20px; 
+        top: 55%;
+        
+    }
+    nav a{
+        display: inline;
+        color: purple;
+    }
+    .texto{
+        background-color: rgb(119, 8, 119);
+        color: white;
+        text-align: center;
+        padding: 70px;
+        text-align:;
+    }
+
+    .texto a{
+        border: 2px solid white;
+        transition: all .5s;
+
+    }
+    .texto a:hover{
+        background-color: white;
+        color: rgb(119, 8, 119);
+    }
+    .texto img{
+        display:inline-block;
+        width: 10%;
+    }
+    .contents{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .contents div{
+        float: left;
+        width: 47%;
+        padding: 1.5%;
+    }
+    .texts{
+        position:relative;
+        top: 8px;
+    }
+}
+
+@media screen and (min-width: 1133px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        height: 120px;
+        text-align: right;
+
+    }
+    header img{
+        float: left;
+        position: relative;
+        width: 25%;
+        top: 1px;
+    }
+    nav{
+        display:inline-block;
+        background-color: #f7f7f9;
+        position: relative;
+        font-size: 20px; 
+        top: 55%;
+    }
+    nav a{
+        display: inline;
+        color: purple;
+    }
+    .center{
+        position: relative;
+        top: 400px;
+        color: white;
+    }
+    .texto{
+        background-image: url(../images/bg_topo_1600x1374.jpg);
+        background-size:cover;
+        color: rgb(119, 8, 119);
+        text-align: center;
+        padding: 70px;
+        height: 700px;
+    }
+
+    .texto a{
+        transition: all .5s;
+
+    }
+    .texto a:hover{
+        background-color: white;
+        color: rgb(119, 8, 119);
+    }
+    .texto img{
+        display:inline-block;
+        width: 10%;
+        
+    }
+    .contents{
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .contents div{
+        float: left;
+        width: 22%;
+        padding: 1.5%;
+    }
+    .texts{
+        position:relative;
+        width: 100%;
+        padding-bottom: 20px;
+        height: 700px;
+    }
+    .texts div{
+        display: inline-block;
+        width: 35%;
+        margin: 20px;
+    }
+}
+
+@media (min-width: 1300px){
+    header img{
+        width: 20%;
+    }
+}
